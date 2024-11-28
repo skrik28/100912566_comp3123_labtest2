@@ -1,38 +1,62 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #a4ccff;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Output {
+  background-color: #f5ef99;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.current-date-time {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Output_Name_Description,
+.Output_Temp_Humidty_WindSpeed {
+  background-color: #d2d2da;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  margin: 10px;
+}
+
+.Output_Name_Description img {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #333;
+}
+
+.Output_City_Name {
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+div {
+  margin-top: 20px;
 }

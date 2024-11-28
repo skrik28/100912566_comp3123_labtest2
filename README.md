@@ -1,3 +1,37 @@
+# Weather App
+
+This is a weather application built with ReactJS. 
+The app fetches weather data from the OpenWeatherMap API and displays information based on the city entered by the user.
+
+
+## Features
+- Dynamic city search.
+- Displays weather data such as temperature, humidity, and wind speed.
+- Updates the datetime with each search.
+- Uses the OpenWeatherMap API.
+
+## API Used
+The OpenWeatherMap API is used to fetch weather data.
+
+API documentation: https://openweathermap.org/api
+
+
+
+
+## Setup
+1. Install dependencies:
+
+# `npm install`
+
+2. Start the app:
+
+# `npm start`
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
