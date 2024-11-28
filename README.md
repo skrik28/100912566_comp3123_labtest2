@@ -30,16 +30,16 @@ API documentation: https://openweathermap.org/api
 
 ## Output
 
-![alt text](output_toronto.png)
+![alt text](images/output_toronto.png)
 Screenshot of the default search query: Toronto. Displays the city name, weather description, temp, humidity and wind speed.
 
-![alt text](output_barcelona.png)
+![alt text](images/output_barcelona.png)
 Screenshot of search query for: Barcelona. Displays the city name, weather description, temp, humidity and wind speed.
 
-![alt text](output_failure.png)
+![alt text](images/output_failure.png)
 Screenshot of a search query that yields no successful results. Outputs: 'No weather data found for "{search}". Please check the city name.'
 
-![alt text](postman_success.png)
+![alt text](images/postman_success.png)
 Screenshot of successful Postman Get request.
 
 
