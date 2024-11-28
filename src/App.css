@@ -21,7 +21,7 @@
   margin-bottom: 20px;
 }
 
-.Output_Name_Description,
+.Output_Description,
 .Output_Temp_Humidty_WindSpeed {
   background-color: #d2d2da;
   padding: 20px;
@@ -31,7 +31,7 @@
   margin: 10px;
 }
 
-.Output_Name_Description img {
+.Output_Description img {
   width: 100px;
   height: 50px;
   margin-top: 10px;
@@ -49,14 +49,5 @@ h1 {
 
 input {
   padding: 10px;
-  margin-top: 20px;
-}
-
-img {
-  width: 50px;
-  height: 50px;
-}
-
-div {
   margin-top: 20px;
 }

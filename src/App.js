@@ -46,7 +46,7 @@ function App() {
       {weather && !loading && (
         <div className="Output">
           <h2 className="Output_City_Name">{weather.name}</h2>
-          <div className="Output_Name_Description">
+          <div className="Output_Description">
             <p>{weather.weather[0].description}</p>
             <img
               src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}.png`}
